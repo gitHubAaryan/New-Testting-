@@ -1,0 +1,472 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+*,
+body {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0px;
+}
+
+body {
+    font: 400 15px/24px "Roboto", sans-serif;
+    color: #666;
+}
+
+.topBg {
+    width: 100%;
+    height: auto;
+    background: #fff;
+}
+
+.topBg .logoicar {
+    width: 60px;
+    height: auto;
+    padding: 5px 0px;
+}
+
+.topBg .logoicar img {
+    width: 100%;
+    height: auto;
+}
+
+.topBg .worldbank {
+    width: 220px;
+    height: auto;
+    padding: 25px 0px 0px;
+    margin-left: 20px;
+}
+
+.topBg .worldbank img {
+    width: 100%;
+    height: auto;
+}
+
+/******************* right logo end *********************/
+
+.topBg .grightLogo1 {
+    width: 80px;
+    height: auto;
+    padding: 6px 0px 0px;
+}
+
+.topBg .grightLogo1 img {
+    width: 100%;
+    height: auto;
+}
+
+.topBg .grightLogo {
+    width: 150px;
+    height: auto;
+    padding: 25px 0px 0px;
+    margin-left: 20px;
+}
+
+.topBg .grightLogo img {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 991px) {}
+
+@media only screen and (max-width: 991px) {
+    .topBg {
+        text-align: center !importants;
+        height: auto;
+    }
+
+    .topBg .logoicar {
+        width: 30px;
+        height: auto;
+        padding: 5px 0px;
+        margin: auto !important;
+    }
+
+    .topBg .worldbank {
+        width: 120px;
+        height: auto;
+        padding: 5px 0px 0px;
+        margin-left: 10px;
+        margin: auto !important;
+    }
+
+    .topBg .grightLogo1 {
+        width: 40px;
+        height: auto;
+        padding: 6px 0px 0px;
+        margin: auto;
+    }
+
+    .topBg .grightLogo {
+        width: 70px;
+        height: auto;
+        padding: 5px 0px 0px;
+        margin-left: 10px;
+        margin: auto;
+    }
+    .header_spacer {
+        width: 100%;
+       height: 40px;
+    }
+    
+}
+
+@media only screen and (max-width: 480px) {}
+
+/******************* right logo left logo *********************/
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.5);
+    padding: 5px 20px;
+}
+
+
+
+header {
+    background: #fbf0f9;
+    padding: 0px 0px;
+}
+
+
+#home .home,
+#about .about,
+#services .services,
+#client .client,
+#team .team,
+#download .download,
+#contact .contact {
+    color: rgb(84, 12, 151);
+}
+
+
+/*************************** Banner Start *********************************/
+.header_spacer {
+    width: 100%;
+    height: 140px;
+}
+@media only screen and (max-width: 768px) {
+    .header_spacer {
+        width: 100%;
+       height: 100px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .header_spacer {
+        width: 100%;
+       height: 100px;
+    }
+}
+
+.carousel-caption {
+    width: 40%;
+
+    text-align: left;
+    bottom: 24%;
+    left: 60px;
+}
+
+.carousel-caption h3 {
+    font-size: 28px;
+    color: #000;
+}
+
+.carousel-caption span {
+    font-size: 40px;
+    color: #540c97;
+    font-weight: 600;
+}
+
+.carousel-caption .treatment {
+    font-size: 22px;
+    color: #000;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.carousel-caption .ecosystem {
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+}
+
+.carousel-caption .education {
+    font-size: 16px;
+    font-weight: 400;
+    color: #087c00;
+}
+
+.carousel-caption .conference {
+    font-size: 16px;
+    line-height: 22px;
+    color: #585858;
+    margin-top: 10px;
+}
+@media only screen and (max-width: 768px) {
+    .mob-hider{ display: none;}
+    .mob-only{ display: block;}
+}
+@media only screen and (max-width: 480px) {
+    .mob-hider{ display: none;}
+    .mob-only{ display: block !important;}
+}
+
+.desk-only{ display: block;}
+.desk-hider{ display: none;}
+/*************************** About Us Start *********************************/
+
+.aboutBg {
+    width: 100%;
+    min-height: 400px;
+    background: url(../images/faq-illustration.png) no-repeat center right;
+    box-shadow: 2px 2px 5px 0 rgb(55 50 40 / 20%);
+    margin-top: 60px;
+    padding: 20px;
+}
+
+.aboutBg .sideImg {
+    width: auto;
+    height: auto;
+}
+
+.aboutBg .sideImg img {
+    width: 100%;
+    height: auto;
+}
+
+.aboutBg .sideText {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+}
+
+.aboutBg .sideText .abutTytle {
+    font-size: 16px;
+    line-height: 40px;
+    color: #000;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.aboutBg .sideText h2 {
+    font-size: 36px;
+    color: #540c97;
+    margin-top: 20px;
+}
+
+.aboutBg .sideText a {
+    display: inline-block;
+    font-size: 16px;
+    color: #540c97;
+    border: 1px solid #540c97;
+    padding: 8px 20px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.aboutBg .sideText a:hover {
+    text-decoration: none;
+    background: #540c97;
+    color: #fff;
+    transition: 1s;
+}
+
+/*************************** About Us Start *********************************/
+.guidance {
+    width: 100%;
+    height: auto;
+    background: #f1f1f1;
+    margin-top: 60px;
+    padding: 60px 0px;
+    text-align: left;
+}
+
+.guidance h1 {
+    font-size: 24px;
+    color: #540c97;
+}
+
+.guidance .guaidImg {
+    width: 100%;
+    min-height: 200px;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px 0 rgb(55 50 40 / 20%);
+    margin-top: 25px;
+}
+
+.guidance .guaidImg .imgBox {
+    width: 100%;
+    height: auto;
+    border-radius: 6px 6px 0px 0px;
+    overflow: hidden;
+}
+
+.guidance .guaidImg .textBox h1 {
+    font-size: 16px;
+    color: #540c97;
+}
+
+.guidance .guaidImg .imgBox img {
+    width: 100%;
+    height: auto;
+}
+
+.guidance .guaidImg .textBox {
+    width: 100%;
+    padding: 15px;
+}
+
+.guidance .guaidImg .textBox p {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+/************************* organazerBg start ************************/
+.organazerBg {
+    width: 100%;
+    min-height: 400px;
+    background: #fbf0f9 url(../images/patern.jpg);
+
+    padding: 60px 0px;
+}
+
+.orgTytle {
+    font-size: 36px;
+    color: #000;
+}
+
+.probox {
+    background: #f1f1f1;
+}
+
+/************************* organazerBg end ************************/
+.mediaBg {
+    width: 100%;
+    min-height: 400px;
+    background: #fff;
+    padding: 60px 0px;
+}
+
+.videoBg {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    position: relative;
+}
+
+.vidTytle {
+    font-size: 16px;
+    color: #000;
+    margin: 10px 10px 20px 10px;
+}
+
+.confrence {
+    font-size: 22px;
+    color: #540c97;
+    margin-top: 20px;
+}
+
+
+/********************** news ***********************/
+
+/*#####################
+Additional Styles (required)
+######################*/
+.carousel-indicators {
+    bottom: -40px;
+    left: 0;
+    width: 100%;
+    background: #ccc;
+    padding: 6px 0px;
+    margin-left: 0;
+    border-top: 2px solid #fff;
+}
+
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border-color: #fff;
+
+}
+
+.carousel-indicators .active {
+    width: 14px;
+    height: 14px;
+    background: #428bca;
+    border-color: #428bca;
+}
+
+.carousel-inner .thumbnail {
+    margin-bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.carousel-inner .caption {
+    background: #ddd;
+    padding: 10px;
+}
+
+.newsBg {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border-radius: 6px;
+    padding: 42px 0px;
+    box-shadow: 2px 2px 5px 0 rgb(55 50 40 / 20%);
+}
+
+.conferenceTytle {
+    font-size: 25px;
+    line-height: 35px;
+    color: #540c97;
+    font-weight: 100;
+    margin: 30px 0px 10px;
+}
+
+.borb {
+    width: 60px;
+    height: 4px;
+    background: #000;
+    margin-bottom: 30px;
+}
+
+.newText {
+    text-align: center;
+    margin: 20px;
+}
+
+.newsTytle {
+    font-size: 22px;
+    text-align: center;
+    color: #540c97;
+    margin: 30px 0px 0px 30px;
+}
+
+/*********************** footer **********************/
+footer {
+    width: 100%;
+    background: #f1f1f1;
+    padding: 60px 0px;
+}
+
+.contactBg {
+    width: 100%;
+    padding: 30px 0px;
+}
+
+.contactBg h1 {
+    font-size: 18px;
+    color: #540c97;
+}
+
+.contactBg h2 {
+    font-size: 22px;
+    color: #333;
+}
+
+.coppyright {
+    width: 100%;
+    text-align: center;
+    padding: 5px 0px;
+}
